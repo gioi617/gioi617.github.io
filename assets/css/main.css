@@ -83,6 +83,11 @@ html {
 .main__container--nav-one img {
     width: 100%;
     border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.main__container--nav-one img:hover {
+    transform: scale(1.04);
 }
 
 h1 {
